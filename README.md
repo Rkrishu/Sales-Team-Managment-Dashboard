@@ -54,17 +54,12 @@ This project is designed to help sales teams and managers track performance, mon
 
 ---
 
-📸 Screenshots
-
-You can add screenshots here later for:
+### 📸 Screenshots
 
 Login page
 Dashboard overview
 Reports & analytics page
 Sales performance view
-
-
-## Screenshots
 
 ### Login Page
 <img width="1600" height="749" alt="Image" src="https://github.com/user-attachments/assets/945a7cfa-cc74-46f8-b053-a2f454ae95e1" />
