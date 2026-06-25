@@ -39,14 +39,6 @@
       "role": "team_member",
       "isActive": true,
       "createdAt": "2026-06-04T08:45:00Z"
-    },
-    {
-      "id": "u-c4436eb7",
-      "name": "Smita Patel",
-      "email": "smitapatel@gmail.com",
-      "role": "team_member",
-      "isActive": true,
-      "createdAt": "2026-06-25T07:30:43.807Z"
     }
   ],
   "passwords": {
@@ -69,29 +61,9 @@
     "emma@salescorp.com": {
       "hash": "cdf8ec578c086a835d5123fcaf38ccd2404195ddc55664562aedcfc0cf0badca",
       "salt": "sales_salt_2026"
-    },
-    "smitapatel@gmail.com": {
-      "hash": "0925ff6eebaa88f5ec3138a45554dfff90b1f704bbe64751dd44d965c633d483",
-      "salt": "sales_salt_2026"
     }
   },
   "calls": [
-    {
-      "id": "c-b5d8b607",
-      "date": "2026-06-25",
-      "employeeId": "u-c4436eb7",
-      "employeeName": "Smita Patel",
-      "callsMade": 2000,
-      "callsConnected": 500,
-      "interestedCalls": 150,
-      "notConnectedCalls": 1000,
-      "followUpsScheduled": 60,
-      "meetingsBooked": 10,
-      "clientsConverted": 20,
-      "revenueGenerated": 50000,
-      "remarks": "Excellent responses on product introduction. Scheduled key followups.",
-      "createdAt": "2026-06-25T07:34:35.343Z"
-    },
     {
       "id": "c-a71315ea",
       "date": "2026-06-25",
@@ -448,42 +420,6 @@
     }
   ],
   "auditLogs": [
-    {
-      "id": "log-0db88a76",
-      "userName": "Executive Admin",
-      "email": "admin@salescorp.com",
-      "userId": "u-admin",
-      "actionType": "UPDATE_DAILY_CALL",
-      "details": "Updated call record id c-b5d8b607 for Smita Patel on date 2026-06-25.",
-      "timestamp": "2026-06-25T07:42:37.796Z"
-    },
-    {
-      "id": "log-60777603",
-      "userName": "Executive Admin",
-      "email": "admin@salescorp.com",
-      "userId": "u-admin",
-      "actionType": "UPDATE_DAILY_CALL",
-      "details": "Updated call record id c-b5d8b607 for Smita Patel on date 2026-06-25.",
-      "timestamp": "2026-06-25T07:39:50.255Z"
-    },
-    {
-      "id": "log-98ea02dd",
-      "userName": "Executive Admin",
-      "email": "admin@salescorp.com",
-      "userId": "u-admin",
-      "actionType": "CREATE_DAILY_CALL",
-      "details": "Logged daily statistics for Smita Patel for 2026-06-25: 2000 calls, 500 connected, 20 converted, Revenue: $50000.",
-      "timestamp": "2026-06-25T07:34:35.353Z"
-    },
-    {
-      "id": "log-4496019f",
-      "userName": "Executive Admin",
-      "email": "admin@salescorp.com",
-      "userId": "u-admin",
-      "actionType": "CREATE_USER",
-      "details": "Created new team user credentials for Smita Patel with Role: [team_member].",
-      "timestamp": "2026-06-25T07:30:43.825Z"
-    },
     {
       "id": "log-0bc5b142",
       "userName": "Executive Admin",
