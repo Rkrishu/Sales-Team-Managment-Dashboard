@@ -221,7 +221,7 @@ export default function ReportsAnalyticsTab({ calls, users, currentUser }: Repor
                 <button
                   onClick={handleExportCSV}
                   disabled={logsCount === 0}
-                  className="flex items-center space-x-1 px-3 py-2 bg-indigo-50 hover:bg-indigo-100 disabled:opacity-50 text-indigo-650 rounded-lg text-xs font-semibold shadow-2xs border border-indigo-200 transition"
+                  className="flex items-center space-x-1 px-3 py-2 bg-indigo-600 hover:bg-indigo-700, border border-indigo-200 disabled:opacity-50 text-white rounded-lg text-xs font-semibold shadow-2xs transition"
                   title="Download CSV / Excel spreadsheet"
                 >
                   <Download className="h-4 w-4" />
