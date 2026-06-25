@@ -1,0 +1,521 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-06-01T08:00:00Z"
+    },
+    {
+      "id": "u-sarah",
+      "name": "Sarah Jenkins",
+      "email": "sarah@salescorp.com",
+      "role": "team_member",
+      "isActive": true,
+      "createdAt": "2026-06-02T09:15:00Z"
+    },
+    {
+      "id": "u-alex",
+      "name": "Alex Rodriguez",
+      "email": "alex@salescorp.com",
+      "role": "team_member",
+      "isActive": true,
+      "createdAt": "2026-06-02T10:30:00Z"
+    },
+    {
+      "id": "u-david",
+      "name": "David Kim",
+      "email": "david@salescorp.com",
+      "role": "team_member",
+      "isActive": true,
+      "createdAt": "2026-06-03T11:00:00Z"
+    },
+    {
+      "id": "u-emma",
+      "name": "Emma Watson",
+      "email": "emma@salescorp.com",
+      "role": "team_member",
+      "isActive": true,
+      "createdAt": "2026-06-04T08:45:00Z"
+    },
+    {
+      "id": "u-c4436eb7",
+      "name": "Smita Patel",
+      "email": "smitapatel@gmail.com",
+      "role": "team_member",
+      "isActive": true,
+      "createdAt": "2026-06-25T07:30:43.807Z"
+    }
+  ],
+  "passwords": {
+    "admin@salescorp.com": {
+      "hash": "878f3aba85197e8c190fbae6afbfc40f6cc5d90414a0e3fc4c8abfa1bbe8bea9",
+      "salt": "sales_salt_2026"
+    },
+    "sarah@salescorp.com": {
+      "hash": "32a17fad81f7956c11060b93f89ff22b89ee487c14b403ab91d3d6b7da810f04",
+      "salt": "sales_salt_2026"
+    },
+    "alex@salescorp.com": {
+      "hash": "531c2790c2ac7344a55b3c0bcd5ccd80f1dd3a45352e4607cc4dd71fb53615c1",
+      "salt": "sales_salt_2026"
+    },
+    "david@salescorp.com": {
+      "hash": "07950161d3523dec29ced80b99edb5a4b1e8d250fde2a8b7e54ab3d9e7b184a3",
+      "salt": "sales_salt_2026"
+    },
+    "emma@salescorp.com": {
+      "hash": "cdf8ec578c086a835d5123fcaf38ccd2404195ddc55664562aedcfc0cf0badca",
+      "salt": "sales_salt_2026"
+    },
+    "smitapatel@gmail.com": {
+      "hash": "0925ff6eebaa88f5ec3138a45554dfff90b1f704bbe64751dd44d965c633d483",
+      "salt": "sales_salt_2026"
+    }
+  },
+  "calls": [
+    {
+      "id": "c-b5d8b607",
+      "date": "2026-06-25",
+      "employeeId": "u-c4436eb7",
+      "employeeName": "Smita Patel",
+      "callsMade": 2000,
+      "callsConnected": 500,
+      "interestedCalls": 150,
+      "notConnectedCalls": 1000,
+      "followUpsScheduled": 60,
+      "meetingsBooked": 10,
+      "clientsConverted": 20,
+      "revenueGenerated": 50000,
+      "remarks": "Excellent responses on product introduction. Scheduled key followups.",
+      "createdAt": "2026-06-25T07:34:35.343Z"
+    },
+    {
+      "id": "c-a71315ea",
+      "date": "2026-06-25",
+      "employeeId": "u-sarah",
+      "employeeName": "Sarah Jenkins",
+      "callsMade": 1000,
+      "callsConnected": 400,
+      "interestedCalls": 120,
+      "notConnectedCalls": 600,
+      "followUpsScheduled": 45,
+      "meetingsBooked": 12,
+      "clientsConverted": 4,
+      "revenueGenerated": 12000,
+      "remarks": "",
+      "createdAt": "2026-06-25T07:25:14.182Z"
+    },
+    {
+      "id": "c-1",
+      "date": "2026-06-15",
+      "employeeId": "u-sarah",
+      "employeeName": "Sarah Jenkins",
+      "callsMade": 65,
+      "callsConnected": 45,
+      "followUpsScheduled": 18,
+      "meetingsBooked": 8,
+      "clientsConverted": 3,
+      "revenueGenerated": 15000,
+      "remarks": "Excellent responses on product introduction. Scheduled key followups.",
+      "createdAt": "2026-06-15T18:00:00Z"
+    },
+    {
+      "id": "c-2",
+      "date": "2026-06-15",
+      "employeeId": "u-alex",
+      "employeeName": "Alex Rodriguez",
+      "callsMade": 60,
+      "callsConnected": 38,
+      "followUpsScheduled": 14,
+      "meetingsBooked": 5,
+      "clientsConverted": 2,
+      "revenueGenerated": 8500,
+      "remarks": "Decent connectivity. Some clients raised pricing concerns.",
+      "createdAt": "2026-06-15T18:15:00Z"
+    },
+    {
+      "id": "c-3",
+      "date": "2026-06-16",
+      "employeeId": "u-sarah",
+      "employeeName": "Sarah Jenkins",
+      "callsMade": 70,
+      "callsConnected": 50,
+      "followUpsScheduled": 20,
+      "meetingsBooked": 9,
+      "clientsConverted": 4,
+      "revenueGenerated": 22000,
+      "remarks": "Closed a key client for Enterprise tier. Great momentum.",
+      "createdAt": "2026-06-16T18:00:00Z"
+    },
+    {
+      "id": "c-4",
+      "date": "2026-06-16",
+      "employeeId": "u-alex",
+      "employeeName": "Alex Rodriguez",
+      "callsMade": 65,
+      "callsConnected": 40,
+      "followUpsScheduled": 15,
+      "meetingsBooked": 6,
+      "clientsConverted": 1,
+      "revenueGenerated": 5000,
+      "remarks": "A lot of follow-ups scheduled for next Monday.",
+      "createdAt": "2026-06-16T18:30:00Z"
+    },
+    {
+      "id": "c-5",
+      "date": "2026-06-17",
+      "employeeId": "u-david",
+      "employeeName": "David Kim",
+      "callsMade": 55,
+      "callsConnected": 32,
+      "followUpsScheduled": 10,
+      "meetingsBooked": 4,
+      "clientsConverted": 2,
+      "revenueGenerated": 11000,
+      "remarks": "Focusing on quality meetings. Solid traction.",
+      "createdAt": "2026-06-17T17:45:00Z"
+    },
+    {
+      "id": "c-6",
+      "date": "2026-06-17",
+      "employeeId": "u-emma",
+      "employeeName": "Emma Watson",
+      "callsMade": 50,
+      "callsConnected": 30,
+      "followUpsScheduled": 8,
+      "meetingsBooked": 3,
+      "clientsConverted": 1,
+      "revenueGenerated": 4500,
+      "remarks": "Steady afternoon calls. Many voicemail box conversions.",
+      "createdAt": "2026-06-17T18:00:00Z"
+    },
+    {
+      "id": "c-7",
+      "date": "2026-06-18",
+      "employeeId": "u-sarah",
+      "employeeName": "Sarah Jenkins",
+      "callsMade": 65,
+      "callsConnected": 42,
+      "followUpsScheduled": 15,
+      "meetingsBooked": 7,
+      "clientsConverted": 2,
+      "revenueGenerated": 10000,
+      "remarks": "Continued pipeline traction. Converting warmer group.",
+      "createdAt": "2026-06-18T18:00:00Z"
+    },
+    {
+      "id": "c-8",
+      "date": "2026-06-18",
+      "employeeId": "u-alex",
+      "employeeName": "Alex Rodriguez",
+      "callsMade": 68,
+      "callsConnected": 41,
+      "followUpsScheduled": 16,
+      "meetingsBooked": 5,
+      "clientsConverted": 2,
+      "revenueGenerated": 9500,
+      "remarks": "Two clients converting on the mid-market packages.",
+      "createdAt": "2026-06-18T18:30:00Z"
+    },
+    {
+      "id": "c-9",
+      "date": "2026-06-19",
+      "employeeId": "u-david",
+      "employeeName": "David Kim",
+      "callsMade": 58,
+      "callsConnected": 35,
+      "followUpsScheduled": 11,
+      "meetingsBooked": 4,
+      "clientsConverted": 3,
+      "revenueGenerated": 16500,
+      "remarks": "Great conversion rate today. Follow-ups yielded results.",
+      "createdAt": "2026-06-19T17:50:00Z"
+    },
+    {
+      "id": "c-10",
+      "date": "2026-06-19",
+      "employeeId": "u-emma",
+      "employeeName": "Emma Watson",
+      "callsMade": 52,
+      "callsConnected": 33,
+      "followUpsScheduled": 9,
+      "meetingsBooked": 5,
+      "clientsConverted": 2,
+      "revenueGenerated": 9000,
+      "remarks": "Solid finish for the weekly cycle. Follow Ups scheduled.",
+      "createdAt": "2026-06-19T18:10:00Z"
+    },
+    {
+      "id": "c-11",
+      "date": "2026-06-21",
+      "employeeId": "u-sarah",
+      "employeeName": "Sarah Jenkins",
+      "callsMade": 45,
+      "callsConnected": 28,
+      "followUpsScheduled": 10,
+      "meetingsBooked": 3,
+      "clientsConverted": 2,
+      "revenueGenerated": 12000,
+      "remarks": "Sunday followups requested by several highly interested leads.",
+      "createdAt": "2026-06-21T18:00:00Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "l-1",
+      "clientName": "Acme Corporation (John Smith)",
+      "contactNumber": "+1-555-0100",
+      "leadSource": "LinkedIn",
+      "assignedToId": "u-sarah",
+      "assignedToName": "Sarah Jenkins",
+      "status": "Converted",
+      "notes": "Closed 50 user team package. Handed off to accounts.",
+      "lastUpdated": "2026-06-16T15:30:00Z"
+    },
+    {
+      "id": "l-2",
+      "clientName": "Globex Industries",
+      "contactNumber": "+1-555-0122",
+      "leadSource": "Website Direct",
+      "assignedToId": "u-alex",
+      "assignedToName": "Alex Rodriguez",
+      "status": "Negotiation",
+      "notes": "Discussing customized SLA agreements. Highly positive.",
+      "lastUpdated": "2026-06-18T16:45:00Z"
+    },
+    {
+      "id": "l-3",
+      "clientName": "Initech Labs",
+      "contactNumber": "+1-555-0144",
+      "leadSource": "Referral",
+      "assignedToId": "u-david",
+      "assignedToName": "David Kim",
+      "status": "Interested",
+      "notes": "Demo completed successfully. Shared custom proposal.",
+      "lastUpdated": "2026-06-19T11:15:00Z"
+    },
+    {
+      "id": "l-4",
+      "clientName": "Umbrella Corp Tech",
+      "contactNumber": "+1-555-0166",
+      "leadSource": "LinkedIn",
+      "assignedToId": "u-emma",
+      "assignedToName": "Emma Watson",
+      "status": "Follow-Up",
+      "notes": "Requested follow-up email with detailed security compliance.",
+      "lastUpdated": "2026-06-19T14:20:00Z"
+    },
+    {
+      "id": "l-5",
+      "clientName": "Hooli Cloud Solutions",
+      "contactNumber": "+1-555-0188",
+      "leadSource": "Cold Call",
+      "assignedToId": "u-sarah",
+      "assignedToName": "Sarah Jenkins",
+      "status": "Converted",
+      "notes": "Closed full system upgrade yesterday.",
+      "lastUpdated": "2026-06-21T17:35:00Z"
+    },
+    {
+      "id": "l-6",
+      "clientName": "Soylent Logistics",
+      "contactNumber": "+1-555-0199",
+      "leadSource": "Website Direct",
+      "assignedToId": "u-alex",
+      "assignedToName": "Alex Rodriguez",
+      "status": "Contacted",
+      "notes": "Sent introduction details over WhatsApp template.",
+      "lastUpdated": "2026-06-21T12:00:00Z"
+    },
+    {
+      "id": "l-7",
+      "clientName": "Wayne Enterprise Procurement",
+      "contactNumber": "+1-555-0210",
+      "leadSource": "Referral",
+      "assignedToId": "u-david",
+      "assignedToName": "David Kim",
+      "status": "New Lead",
+      "notes": "Inbound contact from their director. Needs discovery call scheduled.",
+      "lastUpdated": "2026-06-22T00:00:00Z"
+    },
+    {
+      "id": "l-8",
+      "clientName": "Cyberdyne Systems Systems",
+      "contactNumber": "+1-555-0235",
+      "leadSource": "LinkedIn",
+      "assignedToId": "u-emma",
+      "assignedToName": "Emma Watson",
+      "status": "Lost",
+      "notes": "Chose to postpone system upgrades for next fiscal budget.",
+      "lastUpdated": "2026-06-18T10:00:00Z"
+    }
+  ],
+  "targets": [
+    {
+      "id": "t-1",
+      "timeframe": "monthly",
+      "targetType": "conversions",
+      "title": "June Team Conversions",
+      "value": 35,
+      "achieved": 48,
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30"
+    },
+    {
+      "id": "t-2",
+      "timeframe": "monthly",
+      "targetType": "revenue",
+      "title": "June Revenue (USD)",
+      "value": 200000,
+      "achieved": 193500,
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30"
+    },
+    {
+      "id": "t-3",
+      "timeframe": "weekly",
+      "targetType": "calls",
+      "title": "Weekly Dial Threshold",
+      "value": 1200,
+      "achieved": 3648,
+      "startDate": "2026-06-15",
+      "endDate": "2026-06-22"
+    },
+    {
+      "id": "t-4",
+      "timeframe": "weekly",
+      "targetType": "connections",
+      "title": "Weekly Client Connections",
+      "value": 800,
+      "achieved": 1306,
+      "startDate": "2026-06-15",
+      "endDate": "2026-06-22"
+    }
+  ],
+  "pitches": [
+    {
+      "id": "p-1",
+      "title": "Elevator Pitch: Standard Cloud Migration",
+      "category": "Sales Pitch",
+      "content": "For forward-thinking businesses experiencing latency and high hosting bills, our Unified Cloud suite migrate and scale your legacy applications with automated clustering. Unlike generic clouds, we cut operational overhead by up to 40% with automated cluster management. Would you be open to a 5-minute visual run-through this Wednesday?",
+      "isFavorite": true,
+      "productLine": "Cloud Migration Suite",
+      "createdBy": "Executive Admin",
+      "createdAt": "2026-06-10T10:00:00Z"
+    },
+    {
+      "id": "p-2",
+      "title": "WhatsApp Intro: Post-Webinar Outreach",
+      "category": "WhatsApp Template",
+      "content": "Hi [Name]! Thanks for joining our Cloud Security masterclass yesterday. 🚀 As promised, here are the slide materials: salescorp.com/slides. Quick question: is tightening cluster permissions a priority for your team this quarter? We can jump-start with a free audit! Let me know if tomorrow at 2 PM works.",
+      "isFavorite": true,
+      "productLine": "Cloud Security",
+      "createdBy": "Executive Admin",
+      "createdAt": "2026-06-12T14:30:00Z"
+    },
+    {
+      "id": "p-3",
+      "title": "Call Script: Handling Pricing Objections",
+      "category": "Objection Handling",
+      "content": "Client: 'That proposal is way out of our budget.'\n\nResponse: 'I hear you completely, [Name]. It sounds like we need to ensure this program doesn't just act as an expense, but directly covers its own cost. Let's look at your current database hardware licensing fees. By consolidating them into our fully managed space, we actually eliminate $1,500/month in local hypervisor maintenance immediately. Knowing that this offsets the platform costs, does the timing of migration feel more justified?'",
+      "isFavorite": false,
+      "productLine": "All Products",
+      "createdBy": "Executive Admin",
+      "createdAt": "2026-06-13T09:15:00Z"
+    },
+    {
+      "id": "p-4",
+      "title": "Cold Call Script: Cloud Database Security",
+      "category": "Call Script",
+      "content": "Hi [First Name], this is [Your Name] from SalesCorp. I know I called out of the blue, but I was looking at your engineering posts on LinkedIn regarding high cloud latency.\n\nWe specialize in setting up zero-trust direct-connect datalakes that reduce query times from seconds to milliseconds. I was wondering if you're the right person to talk to about resolving data lookup bottlenecks?",
+      "isFavorite": true,
+      "productLine": "Database Management",
+      "createdBy": "Executive Admin",
+      "createdAt": "2026-06-14T11:00:00Z"
+    },
+    {
+      "id": "p-5",
+      "title": "Email Template: Post-Demo Follow-Up",
+      "category": "Email Template",
+      "content": "Subject: SalesCorp Demo follow-up - customized deployment architecture\n\nHi [Name],\n\nThank you for taking the time to review our platform yesterday. I loved hearing about [Company]'s goal to double active endpoints by December.\n\nAs promised, I have attached our Custom Solution Blueprint detailing:\n1. Dedicated node segregation layout\n2. Real-time logging proxy routing\n3. Consolidated pricing summary\n\nLet's schedule a brief 10-minute engineering sync on Thursday to address any comments. Do you have availability at 3 PM?\n\nBest regards,\n[Your Name]\nSalesCorp Senior Lead",
+      "isFavorite": false,
+      "productLine": "Enterprise Platform",
+      "createdBy": "Executive Admin",
+      "createdAt": "2026-06-14T16:40:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-0db88a76",
+      "userName": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "userId": "u-admin",
+      "actionType": "UPDATE_DAILY_CALL",
+      "details": "Updated call record id c-b5d8b607 for Smita Patel on date 2026-06-25.",
+      "timestamp": "2026-06-25T07:42:37.796Z"
+    },
+    {
+      "id": "log-60777603",
+      "userName": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "userId": "u-admin",
+      "actionType": "UPDATE_DAILY_CALL",
+      "details": "Updated call record id c-b5d8b607 for Smita Patel on date 2026-06-25.",
+      "timestamp": "2026-06-25T07:39:50.255Z"
+    },
+    {
+      "id": "log-98ea02dd",
+      "userName": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "userId": "u-admin",
+      "actionType": "CREATE_DAILY_CALL",
+      "details": "Logged daily statistics for Smita Patel for 2026-06-25: 2000 calls, 500 connected, 20 converted, Revenue: $50000.",
+      "timestamp": "2026-06-25T07:34:35.353Z"
+    },
+    {
+      "id": "log-4496019f",
+      "userName": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "userId": "u-admin",
+      "actionType": "CREATE_USER",
+      "details": "Created new team user credentials for Smita Patel with Role: [team_member].",
+      "timestamp": "2026-06-25T07:30:43.825Z"
+    },
+    {
+      "id": "log-0bc5b142",
+      "userName": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "userId": "u-admin",
+      "actionType": "CREATE_DAILY_CALL",
+      "details": "Logged daily statistics for Sarah Jenkins for 2026-06-25: 1000 calls, 400 connected, 4 converted, Revenue: $12000.",
+      "timestamp": "2026-06-25T07:25:14.187Z"
+    },
+    {
+      "id": "log-2e8e81b6",
+      "userName": "Executive Admin",
+      "email": "admin@salescorp.com",
+      "userId": "u-admin",
+      "actionType": "USER_LOGIN",
+      "details": "User logged into the platform successfully.",
+      "timestamp": "2026-06-25T07:15:17.287Z"
+    },
+    {
+      "id": "log-1",
+      "userName": "System Initializer",
+      "email": "system@salescorp.com",
+      "userId": "system",
+      "actionType": "DATABASE_INIT",
+      "details": "Database successfully seeded with standard corporate profiles, performance targets, scripts, and past client logs.",
+      "timestamp": "2026-06-22T00:00:00Z"
+    }
+  ],
+  "sessions": {
+    "d271988fb4aeba78788b65eede029dd2cf2efc63f1d1e5dde36501c80c271271": {
+      "userId": "u-admin",
+      "expiresAt": "2026-06-26T07:15:17.282Z"
+    }
+  }
+}

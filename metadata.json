@@ -1,0 +1,6 @@
+{
+  "name": "Sales Team Management Dashboard",
+  "description": "A secure full-stack dashboard tracking sales team performance against quotas, complete with role-based permission controls, pitch script libraries, lead tracking pipelines, real-time alert systems, and PDF/CSV reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
