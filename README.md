@@ -56,9 +56,9 @@ This project is designed to help sales teams and managers track performance, mon
 
 ### 📸 Screenshots
 
-Login page
-Dashboard overview
-Reports & analytics page
+Login page, 
+Dashboard overview, 
+Reports & analytics page, 
 Sales performance view
 
 ### Login Page
