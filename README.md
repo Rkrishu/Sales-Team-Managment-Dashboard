@@ -55,33 +55,6 @@ This project is designed to help sales teams and managers track performance, mon
 
 ---
 
-## 📂 Project Structure
-
-```bash
-Sales-Team-Managment-Dashboard/
-│
-├── data/                   # Local JSON data storage
-│   └── sales_db.json
-│
-├── src/                    # Frontend source code
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Dashboard pages / screens
-│   ├── hooks/              # Custom hooks (if used)
-│   ├── utils/              # Utility functions
-│   └── main.tsx            # Frontend entry point
-│
-├── .env.example            # Sample environment variables
-├── .gitignore
-├── index.html
-├── metadata.json
-├── package.json
-├── package-lock.json
-├── server.ts               # Express backend server
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-
-
 📸 Screenshots
 
 You can add screenshots here later for:
