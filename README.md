@@ -1,4 +1,3 @@
-<img width="1584" height="787" alt="Image" src="https://github.com/user-attachments/assets/c3c41e4f-47eb-4b36-be6d-a7632a7adecd" />
 # Sales Team Management Dashboard
 
 A full-stack **Sales Team Management Dashboard** built with **React + Vite + TypeScript** on the frontend and **Express.js** on the backend.  
@@ -64,15 +63,22 @@ Dashboard overview
 Reports & analytics page
 Sales performance view
 
-Example:
 
 ## Screenshots
 
 ### Login Page
-![Login Screenshot](./screenshots/login.png)
+<img width="1600" height="749" alt="Image" src="https://github.com/user-attachments/assets/945a7cfa-cc74-46f8-b053-a2f454ae95e1" />
 
 ### Dashboard
-![Dashboard Screenshot](./screenshots/dashboard.png)
+<img width="1584" height="787" alt="Image" src="https://github.com/user-attachments/assets/c3c41e4f-47eb-4b36-be6d-a7632a7adecd" />
+
+### Reports & analytics
+<img width="1580" height="748" alt="Image" src="https://github.com/user-attachments/assets/288ec29e-ab49-4eb8-88f3-80d4bcd5d452" />
+
+### Sales performance
+<img width="1596" height="739" alt="Image" src="https://github.com/user-attachments/assets/2b2d72c0-65e0-4ce5-9984-f1ac0b8cea6c" />
+
+
 🔮 Future Improvements
 Database integration (MongoDB / PostgreSQL / MySQL)
 Real-time notifications
